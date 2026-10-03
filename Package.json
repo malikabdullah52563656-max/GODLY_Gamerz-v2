@@ -1,1 +1,11 @@
-package.json
+{
+  "name": "GODLY_Gamerz-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}package.json

@@ -19,6 +19,4 @@ client.on("messageCreate", (message) => {
   if (message.author.bot) return;
 
   if (message.content === `${prefix}ping`) {
-    message.reply("🏓 Pong! Bot is working!");
-  }
-});
+    message.reply("🏓 Pong! Bot is working!"); }

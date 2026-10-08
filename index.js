@@ -1,3 +1,4 @@
+index.js
 client.on('messageCreate', (message) => {
   if (message.author.bot) return;
 

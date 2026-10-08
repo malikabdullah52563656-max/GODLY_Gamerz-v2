@@ -5,18 +5,16 @@ const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent
-  ]
-});
+    GatewayIntentBits.MessageContent}
 
-const prefix = "$";
+{const prefix = "$"}
 
 client.once("ready", () => {
   console.log(`${client.user.tag} is online!`);
 });
 
 client.on("messageCreate", (message) => {
-  if (message.author.bot) return;
+  if (message.author.bot) return;}
 
   if (message.content === `${prefix}ping`) {
-    message.reply("🏓 Pong! Bot is working!"); }
+    message.reply("🏓 Pong!"); }
